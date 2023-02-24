@@ -8,10 +8,9 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score
 #%%
 '''
 Text Classification
-
-text classification is nothing but the process in which the text is assigned to particaular tagg or category depending upon its content. These classification can be used in real world problem for e.g Sentimental Analysis, Spam detection, Analyzing the Customer reviews and many more.
-
-text classification classifiers can be used in organizing, structuring and categorizing for much as any type of text. The text from documents, medical studies and files and also all over the web. For this we are going to use Naive bayes classifier which is considered to be good for text classification.
+-------------------
+Text classification is the process of assigning a label to a chunk of textual data.  
+text classification is nothing but the process in which the text is assigned to particaular tagg or category depending upon its content. These classification can be used in real world problem for e.g Sentimental Analysis, Spam detection, Analyzing the Customer reviews and many more. Text classification classifiers can be used in organizing, structuring and categorizing for much as any type of text. The text from documents, medical studies and files and also all over the web. For this we are going to use Naive bayes classifier which is considered to be good for text classification.
 '''
 
 
