@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score
 Text Classification
 -------------------
 Text classification is the process of learning to assign a label to a chunk of textual data through a model trained on a finite set of example data. The set of class labels is considered to be finite and the learning process is supervised. In other words, text classification is the application of classification to text data.  
-Example applications include sentiment analysis, Spam detection, analysis of customer reviews etc. The text used for training and testing a model could be collected from a vast variety of sources such as formal documents, clinical studies, electronic correspondence, physician prescriptions, or online web pages.
+Example applications include sentiment analysis, Spam detection, analysis of customer reviews etc. The text used for training and testing a model could be collected from a vast variety of sources such as formal documents, clinical studies, electronic correspondence, physician prescriptions, or online web pages. Any classification method might potentially be employed for this purpose. Here, we will compare some frequently used classification algorithms applied to our dataset.
 '''
 
 
