@@ -45,24 +45,20 @@ top_words = pd.DataFrame(Word_frequency.sum()).sort_values(0, ascending=False)
 print(Word_frequency, '\n')
 print(top_words)
 
-
+'''
 Here in the above we have converted the Reviews into vectors, As the naive bayes classifier needs to be able to calculate how many times each word appears in each document and how many times it appears in each category. for Conversion we have used count vectorizer, and also you can see the word frequency and top words in the above.
-Step 6 - Fit the model and make the predictions
-
+'''
+#%% Fit the model and make the predictions
 naive_bayes = MultinomialNB()
 naive_bayes.fit(X_train_cv, y_train)
 predictions = naive_bayes.predict(X_test_cv)
-Step 7 - Print the results
 
+#%% Print the results
 print('Accuracy score for Customer Reviews model is: ', accuracy_score(y_test, predictions), '\n')
 print('Precision scorefor Customer Reviews model is: ', precision_score(y_test, predictions), '\n')
 
-Accuracy score for Customer Reviews model is:  0.6666666666666666 
-
-Precision score for Customer Reviews model is:  0.5 
-
+'''
 As these are the results based on a sample dataset that only have 10 records, but for more data it will give us more better results. Now we will understand what accuracy and precision score tell us:
-
 Accuracy Score will tell us that out of all the identifications that we have made how many are correct.
-
 Precision Score will tell us that out of all the positive/negative identification we made how many are correct.
+'''
